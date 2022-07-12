@@ -4,9 +4,13 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Holistic"
+        xmlns:vm="clr-namespace:Holistic.Models;assembly=Holistic.Models"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+        d:DataContext="{x:Static vm:MainWindow.designVm}"
+        Title="Dropdown" Height="200" Width="300"
+        WindowStartupLocation="CenterScreen">
+    <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10" Width="150">
+        <Button Content="Say hello" Command="{Binding SayHello}"/>
+        <TextBlock Text="{Binding Reply}"/>
+    </StackPanel>
 </Window>
