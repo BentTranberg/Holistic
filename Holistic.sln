@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Holistic", "Holistic\Holistic.csproj", "{3A03663E-97E8-4301-9F68-EEDB96460E2C}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Holistic.Models", "Holistic.Models\Holistic.Models.fsproj", "{32B02C52-2B76-46B4-9E40-BBDE4C57D8C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A03663E-97E8-4301-9F68-EEDB96460E2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A03663E-97E8-4301-9F68-EEDB96460E2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A03663E-97E8-4301-9F68-EEDB96460E2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A03663E-97E8-4301-9F68-EEDB96460E2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32B02C52-2B76-46B4-9E40-BBDE4C57D8C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32B02C52-2B76-46B4-9E40-BBDE4C57D8C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32B02C52-2B76-46B4-9E40-BBDE4C57D8C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32B02C52-2B76-46B4-9E40-BBDE4C57D8C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BAC6A69F-D2DE-4C1F-8FAA-68981D29EDE3}
+	EndGlobalSection
+EndGlobal
