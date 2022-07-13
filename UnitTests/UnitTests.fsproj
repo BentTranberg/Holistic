@@ -17,7 +17,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Include="Misc\FirstTests.fs" />
+    <Compile Include="Db\TodoTests.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Holistic.Business\Holistic.Business.fsproj" />
   </ItemGroup>
 
 </Project>

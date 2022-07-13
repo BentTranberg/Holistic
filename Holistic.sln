@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Holistic", "Holistic\Holist
 EndProject
 Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Holistic.Models", "Holistic.Models\Holistic.Models.fsproj", "{32B02C52-2B76-46B4-9E40-BBDE4C57D8C9}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "UnitTests", "UnitTests\UnitTests.fsproj", "{854692F8-DAE7-4E49-8859-FCFA4EBE0DAF}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "UnitTests", "UnitTests\UnitTests.fsproj", "{854692F8-DAE7-4E49-8859-FCFA4EBE0DAF}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Holistic.Business", "Holistic.Business\Holistic.Business.fsproj", "{7F336ECC-4749-43CD-B704-3294DF3A0D68}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{854692F8-DAE7-4E49-8859-FCFA4EBE0DAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{854692F8-DAE7-4E49-8859-FCFA4EBE0DAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{854692F8-DAE7-4E49-8859-FCFA4EBE0DAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F336ECC-4749-43CD-B704-3294DF3A0D68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F336ECC-4749-43CD-B704-3294DF3A0D68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F336ECC-4749-43CD-B704-3294DF3A0D68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F336ECC-4749-43CD-B704-3294DF3A0D68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
